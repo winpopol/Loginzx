@@ -27,12 +27,11 @@ document
     // Simulate asynchronous login process (replace with your actual login logic)
     setTimeout(function () {
       // For demonstration purposes, let's assume the correct credentials are 'user' and 'password'
-      if (username === "adii" && password === "051023") {
+      if (username === "user" && password === "password") {
         alert("Login successful");
-        console.log("Redirecting to Github");
-        window.location.href="https://winpopol.github.io/janinengz/";
+        window.location.href="";
       } else {
-        errorMessage.innerText = "Invalid username or password, contact your bf";
+        errorMessage.innerText = "Invalid username or password";
       }
       // Hide loading spinner
       spinner.style.display = "none";
